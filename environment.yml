@@ -2,5 +2,5 @@ name: root
 channels:
  - conda-forge
 dependencies:
- - conda-smithy
+ #- conda-smithy
  - tornado
