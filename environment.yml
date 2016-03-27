@@ -1,0 +1,6 @@
+name: root
+channels:
+ - conda-forge
+dependencies:
+ - conda-smithy
+ - tornado
