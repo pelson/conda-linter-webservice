@@ -59,6 +59,7 @@ class HookHandler(tornado.web.RequestHandler):
         print(self.request.__dict__)
         print(self.request.arguments)
 
+
 def main():
     application = tornado.web.Application([
         (r"/", MainHandler),
